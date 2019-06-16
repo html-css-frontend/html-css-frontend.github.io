@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-PageTwo{
+    width: 100%;
+    height: 100vh;
+    ackground: #44A08D;  /* fallback for old browsers */
+    ackground: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    ackground: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.foto-PageTwo h4{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+p{
+    line-height: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+h4{
+    color: black;
+}
+
+.foto-PageTwo,
+.video-PageTwo,
+.HTML-CSS-Codes {
+    width: 33%;
+    height: 100vh;
+    background-color: #aeb99d;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.HTML-CSS-Codes{
+    display: flex;
+    lex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.video-PageTwo_modefied{
+    width: 33%;
+    height: auto;
+   
+}
+
+
+
+
+.html-PageTwo,
+.css-PageTwo{
+    width: 49.5%;
+    height: 100vh;
+    ackground-image: linear-gradient(to right, #a8a855, #a8a855, #a8a855, #a8a855, #a8a855);
+color: white;
+
+}
+
+
+.html-inner-blocks,
+.css-inner-blocks{
+    width: 100px;
+    height: 120px;
+    ackground-image: linear-gradient(to left top, #d1d15c, #b6b651, #9c9c47, #83833d, #6b6b33);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.html-inner-blocks{
+margin-left: 47px;
+
+}
+
+
+#ten:hover{
+    text-decoration: none;
+  background-color: #848d75;
+    text-align: center;
+  
+
+}
+
+.ancor{
+    max-width: 200px;
+    height: 20px;
+    margin: 10px 0px;
+    
+
+}
+
+.taxi{
+    width: 300px;
+    height: auto;
+  
+}
+
+.image-center{
+    width: 100%;
+    height: 100px;
+}
+
+.image-center:hover{
+width: 500px;
+height: auto;
+cursor: pointer;
+z-index: 2;
+position: absolute;
+margin-left: -40px;
+
+
+}
+
+
+
+
+
+.prety{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
+
+
+p{
+    text-align: center;
+    
+    line-height: 1;
+    letter-spacing: 1px;
+    font-style: normal;
+    
+}
+.xmp{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0.5;
+    display: inline;
+    margin-left: -20px;
+
+}
+
+.allABC{
+    color: #554c23;
+    margin-left:10px;
+    font-size: 1em;
+    display: block;
+    font-weight: 600;
+}
+
+.allABC:hover{ /* allABC применяется,как постоянно повторяющийся,ко всем id=abc на сайте*/
+    text-decoration: none;
+    color: #554c23;
+}
+

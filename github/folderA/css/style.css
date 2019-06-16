@@ -1,0 +1,117 @@
+
+
+@import url("Pages/Tips-PageTwo.css");
+
+
+
+body{
+    background:#c6d3af;
+}
+ 
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to left, #fffac4, #f8f9c8, #f2f9cd, #ecf7d2, #e8f6d6);
+    display: flex;
+    margin-top: 5px;
+}
+
+.numbers{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(168, 170, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.foto{
+    width: 500px;
+    height: 100%;
+    background-color: green;
+    margin-left: 25px;
+    
+}
+.text{
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+ 
+}
+
+
+.text-2 pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.twotwo{
+    max-width: 500px;
+    height: 100%;
+}
+
+pre a:hover{
+    text-decoration: none;
+
+}
+
+.pre2 pre{  /* см.2, pre2 нигде не прописан и ничему мешать не будет*/
+    margin-left: 50px;
+}
+
+.foto_block8{ /*Сделал блок невидимым (прозрачным)*/
+    background-color: transparent;
+}
+
+.abc10:hover{
+    text-decoration: none;
+}
+
+.video-PageTwo span { /*Блок 10, Третья колонка*/
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+.foto span{
+    line-height: 1;
+    display: inline-block;
+}
+
+
+
+
+html {
+    font-family: sans-serif;
+  }
+  
+  .columns {
+    display: flex;
+  }
+  
+  .column {
+    background: #eee;
+    border: 5px solid #ccc;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-column {
+    flex: 2;
+  }
